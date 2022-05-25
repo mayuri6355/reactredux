@@ -12,7 +12,7 @@ import styles from '../counter/counter.module.css'
 export function Counter() {
   const count = useSelector(selectCount);
   const dispatch = useDispatch();
-  const [incrementAmount, setIncrementAmount] = useState('0');
+  const [incrementAmount, setIncrementAmount] = useState('1');
 
   return (
     <div>
